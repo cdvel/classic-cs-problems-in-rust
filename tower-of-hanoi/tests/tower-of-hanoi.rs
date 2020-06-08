@@ -1,11 +1,6 @@
 use tower_of_hanoi::hanoi_target;
 
 #[test]
-fn assert() {
-    assert!(true);    
-}
-
-#[test]
 fn one_disc() {
     assert_eq!(hanoi_target(1), [1])
 }
