@@ -52,5 +52,5 @@ fn fibonacci_forty() {
 
 #[test]
 fn fibonacci_fifty() {
-    assert_eq!(fibonacci(50), 12586269025);
+    assert_eq!(fibonacci(50), 12_586_269_025);
 }
